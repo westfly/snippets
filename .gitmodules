@@ -1,0 +1,3 @@
+[submodule "python/workpool"]
+	path = python/workpool
+	url = https://github.com/shazow/workerpool.git
