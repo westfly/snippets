@@ -1,3 +1,6 @@
 [submodule "python/workpool"]
 	path = python/workpool
 	url = https://github.com/shazow/workerpool.git
+[submodule "python/docopts"]
+	path = python/docopts
+	url = https://github.com/docopt/docopts
