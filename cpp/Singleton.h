@@ -18,6 +18,10 @@ public:
     ~Singleton()
     {
         assert( m_inst_ );
+        if (heap_alloc)
+        {
+          delete m_inst_;
+        }
         m_inst_ = 0;
     }
     static T* instance()
